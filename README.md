@@ -1,7 +1,7 @@
-# Using templates example
+# ERB example with tests
 
-This is a spike to show how templates can be used to generate dashboards for
-target environments:
+A quick spike to show how to create files from ERB templates files with some
+simple unit tests to go along side.
 
 To run:
 
@@ -16,5 +16,5 @@ templates in ./dashboards
 To run tests:
 
 ```bash
-bundle exec rake
+bundle exec rspec
 ```
